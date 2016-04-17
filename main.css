@@ -1,0 +1,49 @@
+html, body, header {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2.5rem;
+    background-image: url(img/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: grey;
+    border: 10px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header {
+    position: fixed;
+    text-align: center;
+    border: 2px;
+    padding-left: 50%;
+}
+
+
+h1 {
+    color: #00aaca;
+    font-size: 6rem;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+}
+
+section, h2 {
+    font-family: "Courier", sans-serif;
+    color: #00bf00;
+    text-align: center;
+    font-size: 10rem;
+    padding-top: 50rem;
+
+}
+
